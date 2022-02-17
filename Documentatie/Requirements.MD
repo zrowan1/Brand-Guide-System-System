@@ -17,6 +17,7 @@ Must Have:
 -	Een brand guide system moet te bewerken zijn.
 
 -	De mogelijkheid om elementen uit de brand guide te downloaden (bijv. logo's).
+	- Kwaliteitseis: de elementen worden vanaf een aparte, daarvoor bestemde, pagina gedownload.
 -	Het moet een web-applicatie zijn.
   	- Kwaliteitseis: de back-end van de applicatie maakt gebruik van Node.js.
 
