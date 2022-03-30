@@ -3,9 +3,8 @@
     "",
     "\\client",
     "\\client\\public",
-    "\\client\\src",
-    "\\server"
+    "\\client\\src"
   ],
-  "SelectedNode": "\\server\\index.js",
+  "SelectedNode": "\\client\\public\\index.html",
   "PreviewInSolutionExplorer": false
 }
