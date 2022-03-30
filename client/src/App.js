@@ -25,12 +25,26 @@ function App() {
 
 }
 
+var id = 0;
+
 function AddWidget() {
-    ReactDOM.render(
-        <div class="content-wrap">
-            <button class="btn">-</button>
-        </div>
-        , document.getElementById('test'));
+    const iDiv = document.createElement('div');
+    var idstring = "widget" + id.toString();
+    console.log(idstring);
+    iDiv.id = idstring;
+    iDiv.style.height = "200px";
+    iDiv.style.width = "100%";
+    iDiv.style.backgroundColor = "black";
+    iDiv.style.margin = "10px";
+    document.getElementById('widgetlist').appendChild(iDiv);
+
+
+    const iH1 = document.createElement('h1');
+    iH1.textContent = 'This is a widget!'
+    iH1.style.color = "white";
+    iDiv.appendChild(iH1);
+
+    id++;
 }
     
 export default App;
